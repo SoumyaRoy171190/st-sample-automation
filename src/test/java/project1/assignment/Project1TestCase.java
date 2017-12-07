@@ -5,8 +5,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
+import project1.reusableUtils.Constants;
 import reusablePageFactory.PhPLoginPage;
-import reusableUtils.Constants;
+
 
 public class Project1TestCase {
 
