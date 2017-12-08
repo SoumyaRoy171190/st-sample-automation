@@ -7,7 +7,12 @@ import org.testng.annotations.Test;
 
 import project1.reusableUtils.Constants;
 import reusablePageFactory.PhPLoginPage;
-
+/**
+ * @author SoumyaRoy
+ * Simple Login Page Test Case for reference
+ * TestNG is used 
+ * PageFactory initialization method is called as Page Object Model scenario implementation
+ */
 
 public class Project1TestCase {
 

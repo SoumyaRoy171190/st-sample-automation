@@ -10,6 +10,12 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+/**
+ * @author SoumyaRoy
+ * This is an example of Page Factory and @FindBy annotations
+ *	WebElement is discovered here by @FindBy and then operations done on those 
+ */
+
 public class PhPLoginPage {
 
 	private WebDriver driver;
