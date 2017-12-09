@@ -1,10 +1,12 @@
 package project1.assignment;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
+import project1.reusable.elementPaths.LoginPageXpaths;
 import project1.reusableUtils.Constants;
 import reusablePageFactory.PhPLoginPage;
 /**
@@ -26,8 +28,9 @@ public class Project1TestCase {
 	@Test(priority = 0)
 	public void loginToPhP() {
 
-		PhPLoginPage login_Page = PageFactory.initElements(driver, PhPLoginPage.class);
-		login_Page.loginPhpTraverls(Constants.userName, Constants.password);
+		/*PhPLoginPage login_Page = PageFactory.initElements(driver, PhPLoginPage.class);
+		login_Page.loginPhpTraverls(Constants.userName, Constants.password);*/
+		driver.findElement(By.xpath(LoginPageXpaths.uid)).sendKeys(Constants.userName);;
 	}
 
 }
